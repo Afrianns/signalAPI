@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signal</title>
+  </head>
+  <body class="bg-yellow-light font-grotesk overflow-x-hidden">
+    <header>
+      <div class="bg-black py-2 lg:hidden">
+        <img src="assets/logo.svg" class="h-10" alt="" />
+      </div>
+      <div class="card-white">
+        <img src="assets/logo.svg" class="max-lg:hidden h-10" alt="" />
+        <ul class="flex items-center gap-x-5 font-bold">
+          <li class="clickable">How it works</li>
+          <li class="clickable">Why it wins</li>
+          <li class="clickable">Pricing</li>
+          <li class="clickable">Testimonials</li>
+          <li class="clickable">FAQ</li>
+        </ul>
+        <button class="bg-black py-3 px-4 rounded-full text-white">
+          Get My AI Agent
+        </button>
+      </div>
+      <div class="mt-48 mx-auto max-w-[1000px] text-left space-y-16">
+        <section
+          class="text-5xl mx-auto max-lg:text-center lg:text-7xl max-w-[925px] w-full relative"
+        >
+          <p class="mb-6"><span class="font-bold">AI Sales Agent</span></p>
+          <img
+            src="assets/frame.svg"
+            class="absolute centering lg:-right-10 -top-20 lg:-top-20 lg:w-[500px] h-fit"
+            alt=""
+          />
+          <img
+            src="assets/croissant.svg"
+            class="absolute centering lg:right-0 -top-24 lg:-top-44 w-1/2"
+            alt=""
+          />
+          <p>for <span class="font-bold">Recruitment Agencies</span></p>
+        </section>
+        <h3
+          class="font-bold text-xl lg:text-[1.7rem] w-full block max-lg:text-center"
+        >
+          Finds companies actively hiring in your niche and books qualified
+          meetings.
+        </h3>
+
+        <section>
+          <div class="w-[500px] mx-auto text-center space-y-3">
+            <button
+              class="bg-black py-3 px-4 rounded-full text-white clickable"
+            >
+              Get My AI Agent
+            </button>
+            <div class="flex items-start gap-x-2 text-left">
+              <img src="assets/checklist.svg" alt="" />
+              <p>
+                100% Risk-Free: we don’t bill untill your AI agent is booking
+                qualified meetings
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <section class="mt-48 2xl:mx-auto max-w-[1440px] text-center mx-12">
+      <h3
+        class="font-bold text-xl lg:text-[2rem] max-w-[1000px] mx-auto block text-center"
+      >
+        Recruiting’s split : AI-driven growth vs. churning junior BDRs. Where
+        will you stand in 12 months?
+      </h3>
+      <div class="flex max-lg:flex-col gap-x-10 text-left items-center">
+        <div id="AI-agent"></div>
+        <div id="traditional-approach"></div>
+      </div>
+    </section>
+
+    <section class="w-full bg-red-50 -z-10">
+      <img
+        src="assets/yellow-separation.svg"
+        class="w-full z-10 bg-black"
+        alt=""
+      />
+    </section>
+
+    <section class="bg-black w-full py-24 space-y-10">
+      <h3 class="text-2xl lg:text-4xl text-center text-white py-5">
+        How does it work?
+      </h3>
+      <div class="card-steps max-lg:flex-col">
+        <div id="job-listing-illustration"></div>
+
+        <div class="text-white space-y-5">
+          <span class="card-step-number">Step 1</span>
+          <h3 class="text-5xl">Agent Spots Opportunities You’d Miss</h3>
+          <p class="text-xl">
+            While you’re running the business, your AI agent continuously
+            monitors your target companies for hiring signals - new job posts,
+            team expansions, funding announcements. Works 24/7 across multiple
+            data sources.
+          </p>
+        </div>
+      </div>
+      <div class="card-steps max-lg:flex-col-reverse">
+        <div class="text-white space-y-5">
+          <span class="card-step-number">Step 2</span>
+          <h3 class="text-5xl">
+            Reach the <span class="bg-yellow-light/60">Right People</span>
+          </h3>
+          <p class="text-xl">
+            No more messages getting stuck with HR. Your agent identifies and
+            connects directly with hiring managers, department heads, and
+            executives who actually make placement decisions. Bypasses
+            gatekeepers every time.
+          </p>
+        </div>
+
+        <div id="chatting-illustration" class="w-full"></div>
+      </div>
+      <div class="card-steps max-lg:flex-col">
+        <div id="schedule-illustration" class="w-full"></div>
+
+        <div class="text-white space-y-5">
+          <span class="card-step-number">Step 3</span>
+          <h3 class="text-5xl">Books the Meetings</h3>
+          <p class="text-xl">
+            Handles the back-and-forth to get qualified prospects on your
+            calendar. You show up to meetings with companies that have
+            <span class="bg-yellow-light/60"
+              >real needs and approved budgets.</span
+            >
+            Your calendar fills while you sleep.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-grayish mt-28 text-center space-y-5 max-lg:mx-5">
+        <p class="font-medium">
+          While competitors are struggling to hire good BDRs, our AI agent is
+          booking 30+ qualified meetings per month.
+        </p>
+        <span class="font-light">James R., Managing Director</span>
+      </div>
+
+      <div class="text-center space-y-5 mt-48 mb-10 max-lg:mx-5">
+        <span class="block text-grayish">⭐⭐⭐⭐⭐ 5.0 on G2.</span>
+        <h3 class="text-white text-3xl">
+          “One of the best tools for getting hiring signals & triggers”
+        </h3>
+        <div class="flex gap-3 items-center text-grayish justify-center">
+          <img src="assets/avatar.png" alt="" />
+          <p>Sarah M. - CEO of 15-person agency</p>
+        </div>
+      </div>
+      <div
+        class="flex max-lg:flex-col gap-10 mt-20 items-center justify-around mx-auto max-w-[1440px] relative"
+      >
+        <div
+          class="backdrop-yellow -left-72 bottom-0 w-[30rem] h-[30rem]"
+        ></div>
+        <div
+          class="backdrop-yellow -right-1/2 bottom-1/2 w-[70rem] h-[30rem]"
+        ></div>
+        <div
+          class="backdrop-yellow -left-56 -bottom-72 w-[70rem] h-[20rem]"
+        ></div>
+        <div class="text-center max-w-[500px] space-y-5">
+          <h3 class="text-white text-3xl">
+            “Faster hires, better candidates a real game changer”
+          </h3>
+          <div class="flex gap-3 items-center text-grayish justify-center">
+            <img src="assets/avatar 2.png" alt="" />
+            <p>Ted L. - VP Commercial</p>
+          </div>
+        </div>
+        <div class="text-center max-w-[500px] space-y-5">
+          <h3 class="text-white text-3xl">
+            “Smart, modern recruiting exactly what we needed.”
+          </h3>
+          <div class="flex gap-3 items-center text-grayish justify-center">
+            <img src="assets/avatar 3.png" alt="" />
+            <p>Ihor S. - Head of Sales</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="text-center max-w-[1000px] max-lg:mx-5 mx-auto mt-28 mb-10 space-y-3"
+      >
+        <p class="text-white text-xl">
+          “SignalsAPI is a must have for any forward-thinking recruitment
+          agency, who are serious about their business development and want to
+          incorporate AI in their business”
+        </p>
+        <span class="text-grayish">Worldwiders.com - Executive search</span>
+      </div>
+    </section>
+    <section class="w-full bg-red-50 -z-10">
+      <img
+        src="assets/yellow-separation-bottom.svg"
+        class="w-full z-10 bg-black"
+        alt=""
+      />
+    </section>
+
+    <div class="text-center space-y-8 mt-20">
+      <h3 class="text-3xl font-bold">
+        We Perfect Your Results Before Billing Begins
+      </h3>
+      <p class="font-satoshi text-2xl max-w-[1000px] max-lg:mx-5 mx-auto">
+        We work with you for up to 90 days to fine-tune your AI agent until it
+        consistently books qualified meetings.
+      </p>
+      <ul class="font-satoshi text-xl w-fit mx-auto font-bold space-y-5">
+        <li class="flex items-center gap-5">
+          <img src="assets/checklist.svg" alt="" /> Billing only starts once
+          results are real
+        </li>
+        <li class="flex items-center gap-5">
+          <img src="assets/checklist.svg" alt="" /> Strategic conversations, not
+          cold calls
+        </li>
+        <li class="flex items-center gap-5">
+          <img src="assets/checklist.svg" alt="" /> 15 min of your time weekly
+          to share feedback
+        </li>
+      </ul>
+    </div>
+
+    <div class="text-center mx-auto w-fit mt-36 relative">
+      <img src="assets/leaves.svg" class="absolute -top-5 -left-10" alt="" />
+      <img
+        src="assets/leaves.svg"
+        class="absolute -top-5 -right-10 -scale-x-100"
+        alt=""
+      />
+      <img class="mx-auto" src="assets/croissant-laptop.svg" alt="" />
+      <p class="w-[200px] font-bold">
+        Get your AI agent before your competitors
+      </p>
+    </div>
+
+    <div class="my-14 text-center">
+      <p class="max-lg:text-3xl text-5xl font-bold">Smarter Outreach.</p>
+      <p class="max-lg:text-3xl text-5xl font-bold">Real Results.</p>
+      <p class="max-lg:text-3xl text-5xl font-bold">Zero Risk.</p>
+    </div>
+
+    <button class="card-white font-bold text-xl rounded-full clickable">
+      Deploy My AI Agent Now
+    </button>
+
+    <footer class="bg-black py-10 w-full mt-48">
+      <div
+        class="max-w-[1440px] mx-10 2xl:mx-auto flex max-lg:flex-col justify-between items-center text-white"
+      >
+        <img src="assets/logo.svg" class="mr-auto" alt="" />
+        <div class="my-5 ml-auto">
+          <img src="assets/icons/icon-linkedin.svg" class="ml-auto" alt="" />
+          <p>&copy; 2025 SignalsAPI. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Space-Grotesk";
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi-Variable";
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("assets/fonts/Satoshi-Variable.ttf") format("truetype");
+}
+
+@theme {
+  --font-grotesk: "Space-Grotesk";
+  --font-satoshi: "Satoshi-Variable";
+
+  --drop-shadow-sb: 3px 3px 4px rgba(0, 0, 0, 0.25);
+
+  --color-gray-dark: #252525;
+  --color-gray-light: #343434;
+  --color-gray-extra-light: #525252;
+  --color-gray-extra-light-xl: #d9d9d9;
+
+  --color-yellow-light: #ffd116;
+
+  --color-grayish: #d9d9d9;
+}
+
+.card-white {
+  @apply mx-auto justify-center lg:w-fit h-fit flex gap-x-5 items-center p-5 lg:mt-10 lg:rounded-full bg-gradient-to-b from-white from-80% to-gray-300;
+}
+
+.centering {
+  @apply max-lg:left-1/2 max-lg:-translate-1/2;
+}
+
+.card-steps {
+  @apply flex max-w-[1440px] items-center mx-10 2xl:mx-auto gap-24 py-16 px-20 md:px-24 border border-gray-light rounded-xl;
+}
+
+.card-step-number {
+  @apply block w-fit bg-gray-dark py-2 px-5 rounded-full border border-gray-light mx-auto;
+}
+
+.backdrop-yellow {
+  @apply absolute rounded-[100%] bg-blend-multiply bg-radial from-yellow-light from-10% to-transparent to-50% opacity-20;
+}
+
+.clickable {
+  @apply hover:underline cursor-pointer;
+}
